@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+  <header>
+    <h1 class="title | color-neutral-100">IP Address Tracker</h1>
+
+    <div class="container form-wrapper">
+      <form action="POST" id="form">
+        <label class="visually-hidden" for="address">IP Address</label>
+        <input placeholder="Search for any IP address or domain" type="text" id="address" name="address">
+    
+        <button class="btn" aria-label="Submit Button" data-type="arrow">
+          <span class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+          </span>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <div class="tracker-card | container">
+      <div class="tracker-content">
+        <div class="tracker-info">
+          <span class="tracker-title">IP Address</span>
+          <span class="tracker-value" data-property="ipAddress">192.212.174.101</span>
+        </div>
+        <div class="tracker-info">
+          <span class="tracker-title">Location</span>
+          <span class="tracker-value" data-property="location">Brooklyn, NY 10001</span>
+        </div>
+        <div class="tracker-info">
+          <span class="tracker-title">Timezone</span>
+          <span class="tracker-value" data-property="timezone">UTC -05:00</span>
+        </div>
+        <div class="tracker-info">
+          <span class="tracker-title">ISP</span>
+          <span class="tracker-value" data-property="isp">SpaceX Starlink</span>
+        </div>
+      </div>
+    </div>
+
+    <span class="location-pin">
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="56"><path fill-rule="evenodd" d="M39.263 7.673c8.897 8.812 8.966 23.168.153 32.065l-.153.153L23 56 6.737 39.89C-2.16 31.079-2.23 16.723 6.584 7.826l.153-.152c9.007-8.922 23.52-8.922 32.526 0zM23 14.435c-5.211 0-9.436 4.185-9.436 9.347S17.79 33.128 23 33.128s9.436-4.184 9.436-9.346S28.21 14.435 23 14.435z"/></svg>
+    </span>
+  </main>
+
+  <footer class="footer">
+    <ul class="list">
+      <li><a target="_blank" href="https://www.frontendmentor.io">&copy; Frontend Mentor</a></li>
+      <li><a target="_blank" href="https://www.github.com/donchriscorleone">Coded by Christopher II</a></li>
+      <li><a target="_blank" href="https://www.twitter.com/topheriidev">Twitter</a></li>
+      <li><a target="_blank" href="https://www.instagram.com/devchristopherii">Instagram</a></li>
+    </ul>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
