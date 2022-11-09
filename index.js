@@ -1,6 +1,4 @@
-const apiKey = "at_04riVppoAWt4NcDU4dwB266oQabhl"; //Please don't use my key.
-
-const baseApi = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}`
+const baseApi = `https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.MY_API_KEY}`
 const headers = {
     method: 'GET',
     headers: { 
