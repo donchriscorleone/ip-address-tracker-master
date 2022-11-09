@@ -10,7 +10,6 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -27,12 +26,10 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop (1440px)](./screenshots/Desktop@1440.png)
-![Desktop Active States (1440px)](./screenshots/Desktop Active State.png)
+![Desktop Active States (1440px)](./screenshots/Desktop@1440Active.png)
 
 
 ![Mobile (375px)](./screenshots/Mobile@375.png)
-![Mobile Navigation Active(375px)](./screenshots/Mobile Navigation Active.png)
-
 
 ### Links
 
@@ -50,6 +47,7 @@ Users should be able to:
 - Mobile-first workflow
 - [LeafletJS](https://leafletjs.com/)
 - [IP Geolocation API by IPify](https://geo.ipify.org/)
+
 ## Authors
 
 - [@donchriscorleone](https://www.github.com/donchriscorleone)
