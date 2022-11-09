@@ -183,9 +183,14 @@ button[data-type="arrow"]:focus-within {
 
 /* Main */
 
-main {
-    /* background-color: beige; */
-    padding: 0 1.5rem;
+.main {
+    position: relative;
+}
+
+
+.main #map{
+    height: 100%;
+    z-index: -1;
 }
 
 .tracker-card {
@@ -195,6 +200,10 @@ main {
     background-color: var(--clr-neutral-100);
     transform: translateY(-100px);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
 .tracker-content {
@@ -278,8 +287,8 @@ main {
 .footer {
     position: absolute;
     bottom: 0;
-    right: 0;
-    text-align: right;
+    left: 0;
+    text-align: left;
 }
 
 .footer ul {
@@ -290,6 +299,8 @@ main {
     color: var(--clr-accent-400);
     font-size: var(--size-200);
     transition: color .35s;
+    background-color: var(--clr-neutral-100);
+    padding: .075rem;
 }
 
 .footer ul li a:hover, 
