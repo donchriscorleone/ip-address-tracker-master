@@ -4,7 +4,7 @@
   "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
