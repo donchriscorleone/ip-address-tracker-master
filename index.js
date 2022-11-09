@@ -1,4 +1,4 @@
-const baseApi = `https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.MY_API_KEY}`
+const baseApi = `https://geo.ipify.org/api/v2/country,city?apiKey=${"at_04riVppoAWt4NcDU4dwB266oQabhl"}`
 const headers = {
     method: 'GET',
     headers: { 
@@ -58,9 +58,9 @@ function changeView(lat, lng) {
     map.setView([lat + .015, lng]);
 
     var myIcon = L.icon({
-        iconUrl: './images/icon-location.svg',
+        iconUrl: 'images/icon-location.svg',
         iconAnchor: [22, 94],
-        popupAnchor: [-3, -76],
+        // popupAnchor: [-3, -76],
     });
     L.marker([lat,lng], {icon: myIcon}).addTo(map);
 }
