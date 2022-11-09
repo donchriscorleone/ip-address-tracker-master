@@ -57,10 +57,9 @@ function changeElementValue(result) {
 function changeView(lat, lng) {
     map.setView([lat + .015, lng]);
 
-    var myIcon = L.icon({
-        iconUrl: 'images/icon-location.svg',
-        iconAnchor: [22, 94],
-        // popupAnchor: [-3, -76],
+    var myIcon = L.divIcon({
+        className: 'icon-location',
+        iconSize: [30, 30]
     });
     L.marker([lat,lng], {icon: myIcon}).addTo(map);
 }

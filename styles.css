@@ -281,8 +281,11 @@ button[data-type="arrow"]:focus-within {
 }
 
 
-.location-pin {
+.icon-location {
     display: inline-block;
+    background-image: url(./images/icon-location.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Footer / Attribution */
